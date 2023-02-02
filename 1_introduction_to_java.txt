@@ -1,0 +1,74 @@
+set of instuctions to perform a particular task is called as program 
+
+Computer understands only 0's and 1's so 0's and 1's are called machine level language 
+
+In order to ask computer to do a particular task we need to write all the instructions using zeros and one's... it becomes very difficult to  write 
+
+so assembly language came into picture .. in which we write the program using registers [ mv AX BX ]. Its a kind of microprocessor language 
+
+after that high level language came into picture in which program is witten using simple english words 
+
+machine level language [MLL] -> contains 0's and 1's 
+assembly level language [ALL] -> contains ADD,SUB,MOV .. 
+High level language [HLL] -> contains +,-,*,/,print,scan,if ... 
+
+
+at the end as machine understands only 0's and 1's , any laguage [ HLL | ALL ] needs to be converted to machine level language 
+
+ALL is converted to MLL using "ASSEMBLER"
+
+HLL is converted to MLL using "COMPILER" 
+
+JAVA 
+	=> 1996 by sun micro systems 
+	=> WORA [ write once RUN anywhere ] 
+	=> object oriented 
+	=> platform independent 
+
+Q) what is the meaning of "platform independent" ? 
+
+Windows m/c 1 : 
+
+c-program -> compiler -> 0's and 1's [ machine code -> when executed gives some o/p .. let's say it prints true on screen 
+
+if the machine code in above case is executed on another windows m/c .. it also prints true on screen . But if its executed on Linux machine The o/p may not be predicted , This is called platform dependency . 
+
+In general platform means microprocessor + operating system [ ex : intel + windows / amd + windows ] 
+In software platform means only operating system [ ex: windows / linux ] 
+
+Q) why java is platform independent ? 
+
+java code -> compiled using special compiler called "javac" generates ".class" file which is also called byte code -> this byte code is passed through JVM and it generates Machine code -> That machine code will run on system 
+
+on windows m/c : 
+
+.java file -> javac -> .class file -> windows JVM -> windows machine code -> some o/p say "i am java code" 
+
+on linux m/c : 
+
+.java file -> javac -> .class file -> Linux JVM -> linux machine code -> some o/p say "i am java code" 
+
+on apple m/c : 
+
+.java file -> javac -> .class file -> macos JVM -> macos machine code -> some o/p say "i am java code" 
+
+##for clear picture of java execution refer below URL 
+
+https://www.google.com/url?sa=i&url=http%3A%2F%2Fjavalearningonline.weebly.com%2Fjava-program-compile-and-execution-flow.html&psig=AOvVaw2WdJJzfMp1IiFDf6k-ZfCl&ust=1675431711499000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJji69H79vwCFQAAAAAdAAAAABAE
+
+or core java by hari krishna [ volume 1a page 25 ] 
+
+for installing java we install JDK 
+
+JDK ==> JAVA DEVELOPEMENT KIT 
+    ==> Compiler + library + JVM | JRE [ java run time environment ] 
+
+
+
+
+
+
+
+
+
+
